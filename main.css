@@ -1,0 +1,101 @@
+body {
+  background-color: #1d1d1c;
+}
+
+img {
+  max-width: 100%;
+}
+
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  text-align: left;
+}
+
+header {
+  text-align: center;
+}
+
+nav{
+  font-family: Georgia, "Times New Roman", sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+text-align: center;
+margin-top: 1.5em;
+}
+
+nav li{
+  background-color: #9d9d9c;
+  border-radius: 2em;
+  list-style-type: square;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mobile {
+  display: inline;
+}
+
+.desktop {
+  display: inline;
+}
+
+.tablet {
+  display: none;
+}
+
+.equip {
+  display: none;
+}
+
+main  {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 2em 0 2em 0;
+  background-color: #ffffff;
+  opacity: 0.85;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+
+.le {
+  width: 75%;
+}
+
+
+.ri {
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}

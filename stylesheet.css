@@ -1,0 +1,171 @@
+body {
+  background-color: #1d1d1c;
+}
+
+img {
+  max-width: 100%;
+}
+
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  text-align: left;
+}
+
+header {
+  text-align: center;
+}
+
+nav{
+  font-family: Georgia, "Times New Roman", sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+text-align: center;
+margin-top: 1.5em;
+}
+
+nav li{
+  background-color: #9d9d9c;
+  border-radius: 2em;
+  list-style-type: square;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mobile {
+  display: inline;
+}
+
+.desktop {
+  display: inline;
+}
+
+main  {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 0 0 0 0;
+  /* background-color: #ffffff; */
+  opacity: 0.85;
+}
+
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 2em;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.tablet {
+  display: none;
+}
+
+.equip {
+  display: none;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 20%;
+}
+
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+@media only screen and (min-width: 685px){
+  #container{
+    background-color: #1d1d1c;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .desktop {
+      display: inline;
+    }
+
+    main {
+      background-color: #1d1d1c;
+    }
+    main p {
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+
+    section {
+      color: #ffffff;
+      margin-left: 1em;
+      padding-bottom: 5em;
+    }
+    section p {
+       margin-left: 0;
+     }
+
+     .recipesImage{
+       float: left;
+
+     }
+    nav ul{
+      margin: 0;
+      padding-left: 0.5%;
+      padding-right: 0.5%;
+    }
+
+    nav li {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 20%;
+  }
+  nav li a {
+    display: inline-block;
+    padding: 0.7em;
+    text-shadow: 0.2em 0.1em #3d3d35;
+  }
+
+
+  /* figure img {
+    height: 15em;
+    opacity: 0.7;
+  } */
+}
