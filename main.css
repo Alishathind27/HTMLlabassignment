@@ -3,7 +3,10 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 1300px;
+  height: 450px;
+  margin-top: 0.05em;
+
 }
 
 #container {
@@ -12,9 +15,16 @@ img {
   margin-right: auto;
 }
 
-h1{
+/* h3{
+  color: pink;
+  font-family:sans-serif;
   text-align: left;
-  padding-left: 2em;
+  padding-left: 3em;
+} */
+h1{
+  text-align:center;
+  /* padding-left: 1em; */
+
 }
 
 header {
@@ -33,6 +43,7 @@ nav ul {
   padding: 0;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+padding-left: 15em;
 }
 
 nav li{
@@ -41,6 +52,9 @@ nav li{
   list-style-type: none;
   margin: 0.3em;
   padding: 0.4em;
+  width: 60%;
+
+
 
 }
 
@@ -71,7 +85,7 @@ main  {
 }
 h2{
   border-radius: 0 2em 0 2em;
-  background-color: #000000;
+  background-color: #FF1493;
   width: 40%;
   padding-left: 2em;
   color: white;
@@ -84,11 +98,11 @@ footer {
   font-size: 0.7em;
   text-align: center;
   margin-top: 2em;
-  color: #ffffff;
+  color: #000000;
 }
 
 footer a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 .tablet {
@@ -115,13 +129,14 @@ footer a {
 
 .le {
   width: 75%;
+  margin-top: 3em;
 }
 
 
 .ri {
   width: 20%;
   margin-left: 1em;
-  margin-top: 1em;
+  margin-top: 3em;
   border-radius: 2em 2em 2em 2em;
 }
 
@@ -138,7 +153,9 @@ footer a {
     background-color: #1d1d1c;
     }
 
-
+/* img{
+  max-width: 100%;
+} */
 
     nav ul {
         margin: 0;
@@ -188,6 +205,24 @@ footer a {
     margin-top: -7em;
   }
 
+  /* figure img {
+    background-color: #1d1d1c;
+    display: inline;
+    height: 8em;
+    width: 28%;
+    margin: 1%;
+    padding: 1%
+  }
+
+  figure img:hover {
+    opacity: 1;
+  }
+
+    figure a {
+    padding: 0;
+    background-color: transparent;
+    text-decoration: none;
+  } */
 
   footer {
     background-color: #2a2a2a;
